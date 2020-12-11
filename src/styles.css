@@ -1,0 +1,101 @@
+/* Reset start */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* Reset end */
+
+/* Simple styles start */
+
+.app {
+  font-family: 'Acme', sans-serif;
+}
+
+.app-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 30px;
+}
+
+.step-label {
+  position: relative;
+  border: 2px solid #474747;
+  padding: 15px 20px;
+  text-align: center;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.step-label:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.step-label:focus-within {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.step-label.checked {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.step-options {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.step-input {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+
+.submit-cta {
+  position: fixed;
+  bottom: 60px;
+  left: 30px;
+  background-color: #474747;
+  border: none;
+  color: #e5e5e6;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.submit-cta:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px #fff, 0 0 0 6px #474747;
+}
+
+/* Simple styles end */

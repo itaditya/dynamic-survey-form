@@ -1,0 +1,22 @@
+/* Important styles start */
+
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  background: linear-gradient(to bottom, #fff 35%, #e2e8f0 100%);
+  background-attachment: fixed;
+}
+
+body {
+  overscroll-behavior: contain;
+}
+
+.step-fieldset {
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 30px;
+}
+/* Important styles end */
