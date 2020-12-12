@@ -22,7 +22,7 @@ function Step({ step, selectedValue, onChange }) {
   useEffect(() => {
     let timeoutId;
     if (!selectedValue) {
-      setTimeout(scrollToStep, 250);
+      timeoutId = setTimeout(scrollToStep, 250);
     }
 
     return () => {

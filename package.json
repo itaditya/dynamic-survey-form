@@ -1,7 +1,7 @@
 {
-  "name": "dynamic-survey-form-with-react",
+  "name": "dynamic-survey-form",
   "version": "1.0.0",
-  "description": "",
+  "description": "Typeform but with less JS and dynamic steps at every turn.",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
